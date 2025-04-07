@@ -40,5 +40,12 @@ public class Calculos {
 		else System.out.println("Os valores " +valor1 + " e " + valor2 + " são iguais");
 	}
 	
-	
+	public void exemploWhile() {
+		Integer valor = 5;
+		while (valor < 10) {
+			System.out.println("Valor = " + valor);
+			valor++;
+		}
+	}
 }
+

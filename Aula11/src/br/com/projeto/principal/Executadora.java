@@ -6,6 +6,7 @@ import br.com.projeto.calculos.Calculos;
 
 public class Executadora {
 	public static void main(String[] args) {
+		
 		Calculos calculos = new Calculos();
 		Scanner ler = new Scanner(System.in);
 		
@@ -18,5 +19,7 @@ public class Executadora {
 		System.out.println("A Soma entre os valores é: " + calculos.somarDoisNumeros(valor1, valor2));
 		
 		calculos.valorMaiorOuMenor(valor1, valor2);
+		
+		calculos.exemploWhile();
 	}
 }
