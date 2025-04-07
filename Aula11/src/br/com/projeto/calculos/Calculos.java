@@ -29,4 +29,16 @@ public class Calculos {
 	public Double reduzirUmNumero(Double valor) {
 		return --valor;
 	}
+	
+	public void valorMaiorOuMenor(Double valor1, Double valor2) {
+		if (valor1 > valor2) {
+			System.out.println("O valor " + valor1 + " é maior que " + valor2);
+		}
+		else if (valor1 < valor2) {
+			System.out.println("O valor " + valor1 + " é menor que " + valor2);
+		}
+		else System.out.println("Os valores " +valor1 + " e " + valor2 + " são iguais");
+	}
+	
+	
 }

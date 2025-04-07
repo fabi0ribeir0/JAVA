@@ -16,5 +16,7 @@ public class Executadora {
 		Double valor2 = ler.nextDouble();
 		
 		System.out.println("A Soma entre os valores é: " + calculos.somarDoisNumeros(valor1, valor2));
+		
+		calculos.valorMaiorOuMenor(valor1, valor2);
 	}
 }
