@@ -6,7 +6,7 @@ import br.com.projeto.calculos.Calculos;
 
 public class Executadora {
 	public static void main(String[] args) {
-		
+		/*
 		Calculos calculos = new Calculos();
 		Scanner ler = new Scanner(System.in);
 		
@@ -21,5 +21,14 @@ public class Executadora {
 		calculos.valorMaiorOuMenor(valor1, valor2);
 		
 		calculos.exemploWhile();
+		*/
+		
+		String primeiroTexto = "Exemplo";
+		String segundoTexto = "Exempo";
+		
+		if(primeiroTexto == segundoTexto) {
+			System.out.println("IGUAL");
+		}else System.out.println("DESIGUAL");
 	}
 }
+ 
