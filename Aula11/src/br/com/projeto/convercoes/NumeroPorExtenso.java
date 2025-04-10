@@ -50,7 +50,7 @@ public class NumeroPorExtenso {
 			conexao = "";
 			
 			if(posicaoDecimal > 0 && posicaoUnidade > 0) {
-				conexao = "e ";
+				conexao = " e ";
 			}
 			
 			if(num >= 10 && num <= 19) {
